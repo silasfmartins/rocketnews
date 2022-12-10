@@ -47,7 +47,7 @@ export default function Home() {
         <meta name="author" content="Silas Martins" />
         <meta name="description" content="Website que simula um cadastramento de Newslatter" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="../../public/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon" />
         <title>Rocketnews</title>
       </Head>
       <main className="flex justify-between">

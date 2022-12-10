@@ -42,11 +42,11 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: https://silasmartins.vercel.app/ .
+É possível acessar a aplicação através da URL: https://rocketnews-eight.vercel.app/ .
 
 ## 👨‍💻 Contribuir / Contributing
 
-Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/feedback-widget/blob/master/Contributing.md)
+Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/rocketnews/blob/master/Contributing.md)
 
 ## 💿 Histórico / History
 
