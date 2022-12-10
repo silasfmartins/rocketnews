@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="Portifólio" height="80" title="Plant Manager" src="./public/favicon.ico" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="License" src="https://img.shields.io/github/license/silasfmartins/portfolio">
+</p>
 
-First, run the development server:
 
-```bash
+## 💻 Projeto
+Site que mostra meu portfólio e projetos.
+
+## 🔃 Requisitos para utilizar
+
+É necessário ter um navegador e internet acessar a aplicação.
+
+## ✨ Tecnologias
+
+-   [ x ] Typescript
+-   [ x ] React
+-   [ x ] Tailwind
+
+
+## :hammer_and_wrench: Features 
+
+-   [ ] É possível acessar meus repositórios e projetos.
+
+
+## 📲 Executando o projeto
+
+Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+Em seguida, inicie o projeto.
+
+```cl
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🆚 Versionamento / Versioning
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Esse projeto não possui um sistema de versionamento.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🆙 Projeto no ar
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+É possível acessar a aplicação através da URL: https://silasmartins.vercel.app/ .
 
-## Learn More
+## 👨‍💻 Contribuir / Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/feedback-widget/blob/master/Contributing.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💿 Histórico / History
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Consulte [Releases](https://github.com/silasfmartins/portfolio/releases) para ter um changelog completo.
 
-## Deploy on Vercel
+## 📄 Licença do Projeto/License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/portfolio/blob/main/LICENSE) © Silas Martins para mais detalhes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br />
