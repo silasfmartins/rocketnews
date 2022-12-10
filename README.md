@@ -1,14 +1,14 @@
 <h1 align="center">
-  <img alt="Portifólio" height="80" title="Plant Manager" src="./public/favicon.ico" />
+  <img alt="Rocketnews" height="80" title="Plant Manager" src="./src/assets/icon.png" />
 </h1>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/silasfmartins/portfolio">
+  <img alt="License" src="https://img.shields.io/github/license/silasfmartins/rocketnews">
 </p>
 
 
 ## 💻 Projeto
-Site que mostra meu portfólio e projetos.
+Página para captação de leads ou newsletter
 
 ## 🔃 Requisitos para utilizar
 
@@ -23,7 +23,8 @@ Site que mostra meu portfólio e projetos.
 
 ## :hammer_and_wrench: Features 
 
--   [ ] É possível acessar meus repositórios e projetos.
+-   [ ] Aparecer uma alerta que o email foi salvo no banco de dados.
+-   [ ] Emails salvos no banco de dados.
 
 
 ## 📲 Executando o projeto
@@ -49,10 +50,10 @@ Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.
 
 ## 💿 Histórico / History
 
-Consulte [Releases](https://github.com/silasfmartins/portfolio/releases) para ter um changelog completo.
+Consulte [Releases](https://github.com/silasfmartins/rocketnews/releases) para ter um changelog completo.
 
 ## 📄 Licença do Projeto/License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/portfolio/blob/main/LICENSE) © Silas Martins para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/rocketnews/blob/main/LICENSE) © Silas Martins para mais detalhes.
 
 <br />
