@@ -1,14 +1,34 @@
+import { PrismaClient } from "@prisma/client";
 import { NextApiRequest, NextApiResponse } from "next";
 
-import { createEmail } from "../../lib/db";
+const prisma = new PrismaClient();
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if(req.method === "POST") {
-    const data = req.body;
+  const { method } = req;
 
-    await createEmail(data)
+  if(method === "POST") {
+    const { email } = req.body
+
+    await prisma.emails.create({
+      data: {
+        email,
+      }
+    });
 
     return res.status(201).json({});
+    
+  } else if (method === "GET") {
+      const { email } = req.query;
+
+      const emails = await prisma.emails.findMany({
+        where: {
+          id: {
+            contains: String(email),
+          }
+        }
+      })
+
+    return res.json(emails);
   }
 
   return res.status(404).json({message: 'Route not found.'})

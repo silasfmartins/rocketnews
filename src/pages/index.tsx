@@ -1,6 +1,3 @@
-import { GetServerSideProps } from "next";
-import { getEmail, Email } from "../lib/db";
-
 import Head from "next/head";
 import Image from "next/image";
 
@@ -13,20 +10,7 @@ import logo from '../assets/logo.svg';
 import readNews from '../assets/read_news.jpg';
 import send from '../assets/send.svg';
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const emails = await getEmail();
-  return {
-    props: {
-      emails,
-    }
-  }
-}
-
-interface PostProps {
-  emails: Email[];
-}
-
-export default function Home({ emails }: PostProps) {
+export default function Home() {
   const [email, setEmail] = useState('');
   const [isSendingEmail, setIsSendingEmail] = useState(false);
 
