@@ -19,11 +19,14 @@ Página para captação de leads ou newsletter
 -   [ x ] Typescript
 -   [ x ] React
 -   [ x ] Tailwind
+-   [ x ] Prisma
 
 
 ## :hammer_and_wrench: Features 
 
 -   [ ] Aparecer uma alerta que o email foi salvo no banco de dados.
+
+## Futuro
 -   [ ] Emails salvos no banco de dados.
 
 
