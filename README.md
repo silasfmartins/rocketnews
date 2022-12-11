@@ -45,7 +45,7 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: https://rocketnews-eight.vercel.app/ .
+É possível acessar a aplicação através da URL: https://rocketnews-eta.vercel.app/ .
 
 ## 👨‍💻 Contribuir / Contributing
 
