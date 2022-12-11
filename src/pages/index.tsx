@@ -29,7 +29,7 @@ export default function Home() {
 
     setIsSendingEmail(true);
 
-    await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
+    await fetch("/api/email", {
       method: "POST",
       body: JSON.stringify({ email: email }),
       headers: { 
