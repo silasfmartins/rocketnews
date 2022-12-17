@@ -19,13 +19,12 @@ Página para captação de leads ou newsletter
 -   [ x ] Typescript
 -   [ x ] React
 -   [ x ] Tailwind
+-   [ x ] Prisma
 
 
 ## :hammer_and_wrench: Features 
 
 -   [ ] Aparece uma alerta que o email foi salvo no banco de dados.
--   [ ] Emails salvos no banco de dados.
-
 
 ## 📲 Executando o projeto
 
@@ -42,7 +41,7 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: https://rocketnews-eight.vercel.app/ .
+É possível acessar a aplicação através da URL: https://rocketnews-eta.vercel.app/ .
 
 ## 👨‍💻 Contribuir / Contributing
 
