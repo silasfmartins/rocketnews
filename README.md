@@ -19,8 +19,6 @@ Página para captação de leads ou newsletter
 -   [ x ] Typescript
 -   [ x ] React
 -   [ x ] Tailwind
--   [ x ] Prisma
-
 
 ## :hammer_and_wrench: Features 
 
