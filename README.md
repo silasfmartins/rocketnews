@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Rocketnews" height="80" title="Plant Manager" src="./src/assets/icon.png" />
+  <img alt="Rocketnews" height="80" title="Rocketnews" src="./src/assets/icon.png" />
 </h1>
 
 <p align="center">
@@ -23,7 +23,7 @@ Página para captação de leads ou newsletter
 
 ## :hammer_and_wrench: Features 
 
--   [ ] Aparecer uma alerta que o email foi salvo no banco de dados.
+-   [ ] Aparece uma alerta que o email foi salvo no banco de dados.
 -   [ ] Emails salvos no banco de dados.
 
 
