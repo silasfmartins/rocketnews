@@ -9,6 +9,7 @@ import arrowRight from '../assets/arrow-right.svg';
 import logo from '../assets/logo.svg';
 import readNews from '../assets/read_news.jpg';
 import send from '../assets/send.svg';
+import { api } from "../lib/api";
 
 export default function Home() {
   const [email, setEmail] = useState('');
@@ -29,12 +30,8 @@ export default function Home() {
 
     setIsSendingEmail(true);
 
-    await fetch("/api/email", {
-      method: "POST",
-      body: JSON.stringify(email),
-      headers: { 
-        "Content-Type": "application/json" 
-      },
+    await api.post('/email', {
+      email: email
     })
 
     alert('Email salvo no banco de dados')

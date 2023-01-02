@@ -1,7 +1,5 @@
-import { PrismaClient } from "@prisma/client";
 import { NextApiRequest, NextApiResponse } from "next";
-
-const prisma = new PrismaClient();
+import { prismaClient } from "../../lib/prismaClient";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;
@@ -9,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if(method === "POST") {
     const { email } = req.body
 
-    await prisma.emails.create({
+    await prismaClient.emails.create({
       data: {
         email,
       }
@@ -20,7 +18,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   } else if (method === "GET") {
       const { email } = req.query;
 
-      const emails = await prisma.emails.findMany({
+      const emails = await prismaClient.emails.findMany({
         where: {
           id: {
             contains: String(email),
