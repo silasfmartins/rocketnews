@@ -15,6 +15,7 @@ import arrowRight from '../assets/arrow-right.svg';
 import logo from '../assets/logo.svg';
 import readNews from '../assets/read_news.jpg';
 import send from '../assets/send.svg';
+import { api } from '../lib/api';
 
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -62,6 +63,10 @@ export default function Home() {
 
     setIsSendingEmail(true);
 
+    await api.post('/email', {
+      email: email
+    })
+
     alert('Email salvo no banco de dados')
 
     setIsSendingEmail(false);
@@ -81,7 +86,7 @@ export default function Home() {
         </div>
         <div className="flex lg:justify-between">
           <section className="bg-white dark:bg-black margin-auto lg:max-w-[720px] h-[100vw] max-h-[780px] absolute p-[30px]">
-            <figure>
+            <figure className="mt-4 sm:mt-0 md:mt-0 lg:mt-0">
               <Image className="justify-center lg:max-w-[349px] lg:max-h-[94px]" src={logo} alt="Logo" />
               <figcaption className="hidden">Logo</figcaption>
             </figure>
