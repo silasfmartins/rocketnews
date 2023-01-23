@@ -63,7 +63,7 @@ export default function Home() {
 
     setIsSendingEmail(true);
 
-    await api.post('/email', {
+    await api.post('email', {
       email: email
     })
 
@@ -108,7 +108,7 @@ export default function Home() {
                   value={email}
                 />
                 <button
-                  className="bg-[#8257E5]"
+                  className="bg-[#8257E5] hover:bg-[#6229e7] transition-colors"
                   value="Enviar"
                   disabled={email.length === 0 || isSendingEmail}
                   type="submit"
